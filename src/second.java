@@ -4,7 +4,7 @@ public class second {
 	
 	public static void main(String[] args) {
 		String st="3+x*2+x*40*y*5*z*4"; 		//任意初始化字串
-		String Words="";
+		String Words="";//none
 		Vector<HashMap<Character,Integer>> exp=new Vector<HashMap<Character,Integer>>();
 		//HashMap<String,Integer> Term=new HashMap<String,Integer>();
 		Scanner in=new Scanner(System.in);

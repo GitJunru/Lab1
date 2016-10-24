@@ -7,7 +7,7 @@ import java.util.Vector;
 public class Second {
     //main method
     public static void main(String[] args) {
-        String st = "3+x*2+x*40*y*5*z*4";
+        String st = "3+x*2+x*40*y*5*z*4*z";
         String Words = "";
         Vector<HashMap<Character, Integer>> exp = new Vector<HashMap<Character, Integer>>();
         @SuppressWarnings("resource")
